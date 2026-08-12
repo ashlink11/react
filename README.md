@@ -6,7 +6,7 @@ This package will install:
 Node.js v24.18.0 to /usr/local/bin/node
 npm v11.16.0 to /usr/local/bin/npm
 
-### layout.ts notes
+### layout.tsx notes
 ---
 tailwind css classes used on the `body` tag:
 - `min-h-full` (`min-height: 100%;` or `min-height: 100vh;` depending on parent setup):
@@ -18,3 +18,5 @@ classes used on the `html` tag:
 
 `{children}`:
 - Anything placed in `layout.tsx` (like a `<Navbar/>`, `<footer>`, or global font setup) remains mounted and shared across pages, while `{children}` changes dynamically based on the current route
+- `RootLayout` is a wrapper for the `Home` component
+- `layout.tsx` is required

@@ -15,3 +15,6 @@ tailwind css classes used on the `body` tag:
 
 classes used on the `html` tag:
 - `h-full` which means `height: 100%;`
+
+`{children}`:
+- Anything placed in `layout.tsx` (like a `<Navbar/>`, `<footer>`, or global font setup) remains mounted and shared across pages, while `{children}` changes dynamically based on the current route

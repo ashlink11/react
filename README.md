@@ -10,5 +10,8 @@ npm v11.16.0 to /usr/local/bin/npm
 ---
 tailwind css classes used on the `body` tag:
 - `min-h-full` (`min-height: 100%;` or `min-height: 100vh;` depending on parent setup):
-- `flex` (`display: flex;`):
+- `flex` (`display: flex;`), p.s. children can be `<header>`, `<main>`, and `<footer>`
 - `flex-col` (`flex-direction: column;`)
+
+classes used on the `html` tag:
+- `h-full` which means `height: 100%;`

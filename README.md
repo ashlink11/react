@@ -20,3 +20,12 @@ classes used on the `html` tag:
 - Anything placed in `layout.tsx` (like a `<Navbar/>`, `<footer>`, or global font setup) remains mounted and shared across pages, while `{children}` changes dynamically based on the current route
 - `RootLayout` is a wrapper for the `Home` component
 - `layout.tsx` is required
+
+
+### typescript notes
+---
+- `export default function`
+- `export const metadata: Metadata = {}`
+- `export` is like `public` so the code isn't confined to a file
+- `default` lets there be one default component exported from a file
+- `function` - each component is a function rather than a class. functions take in props and output/return JSX

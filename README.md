@@ -29,3 +29,4 @@ classes used on the `html` tag:
 - `export` is like `public` so the code isn't confined to a file
 - `default` lets there be one default component exported from a file
 - `function` - each component is a function rather than a class. functions take in props and output/return JSX
+- `const` is an object that is exported and can be opened by other files

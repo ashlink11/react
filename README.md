@@ -30,3 +30,6 @@ classes used on the `html` tag:
 - `default` lets there be one default component exported from a file
 - `function` - each component is a function rather than a class. functions take in props and output/return JSX
 - `const` is an object that is exported and can be opened by other files
+- `Readonly<{children: React.ReactNode; }>)`
+- `Readonly` is a built-in TypeScript utility type
+- 

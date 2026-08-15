@@ -32,4 +32,6 @@ classes used on the `html` tag:
 - `const` is an object that is exported and can be opened by other files
 - `Readonly<{children: React.ReactNode; }>)`
 - `Readonly` is a built-in TypeScript utility type
-- 
+- `React.ReactNode:` is the type assigned to `children`
+- `ReactNode` can mean JSX elements, React components, plaintext, fragments, arrays of elements, null, or undefined
+- `Readonly` means the state cannot be mutated, it must be passed back to the state machine

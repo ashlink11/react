@@ -1,4 +1,4 @@
-# react
+# react, next.js, typescript
 
 ### repo setup notes
 ---

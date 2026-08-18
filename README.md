@@ -35,3 +35,15 @@ classes used on the `html` tag:
 - `React.ReactNode:` is the type assigned to `children`
 - `ReactNode` can mean JSX elements, React components, plaintext, fragments, arrays of elements, null, or undefined
 - `Readonly` means the state cannot be mutated, it must be passed back to the state machine
+
+### relevant job postings & docs
+- Experience in established frontend frameworks (e.g., Angular, Closure, React), TypeScript/JavaScript, CSS/Sass, and HTML5.
+- react docs: https://react.dev/reference/react
+- typescript docs: https://www.typescriptlang.org/docs/
+- v8 gh: https://github.com/v8/v8
+- webkit gh: https://github.com/webKit/webkit
+- next.js docs: https://nextjs.org/docs
+- vercel templates: https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app
+- next.js react foundations course: https://nextjs.org/learn/react-foundations
+- next.js course: https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app
+

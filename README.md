@@ -1,6 +1,6 @@
 # react, next.js, typescript
 
-### repo setup notes
+### setup notes
 ---
 This package will install:
 Node.js v24.18.0 to /usr/local/bin/node

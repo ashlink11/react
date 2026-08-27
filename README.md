@@ -1,4 +1,4 @@
-# react, next.js, typescript
+# react, next.js, javascript, typescript
 
 ### setup notes
 ---

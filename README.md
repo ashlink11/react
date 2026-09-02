@@ -1,4 +1,4 @@
-# react, next.js, javascript & typescript, & browser engine notes
+# react, next.js, javascript, typescript, & browser engine notes
 
 ### setup notes
 ---

@@ -47,3 +47,5 @@ classes used on the `html` tag:
 - next.js react foundations course: https://nextjs.org/learn/react-foundations
 - next.js course: https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app
 
+### React fundamentals course
+- You can use React to build your UI, then incrementally adopt Next.js features to solve common application requirements such as routing, data fetching, and caching

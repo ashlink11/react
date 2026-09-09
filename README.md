@@ -49,3 +49,16 @@ classes used on the `html` tag:
 
 ### React fundamentals course
 - You can use React to build your UI, then incrementally adopt Next.js features to solve common application requirements such as routing, data fetching, and caching
+- Now, inside the script tag, you can use a DOM method, getElementById(), to select the `<div>` element by its id:
+```html
+<html>
+  <body>
+    <div id="app"></div>
+    <script type="text/javascript">
+      const app = document.getElementById('app');
+    </script>
+  </body>
+</html>
+```
+- JavaScript cannot interact with or change an HTML element until it selects it from the Document Object Model (DOM) and stores it in a variable.
+

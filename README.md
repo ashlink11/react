@@ -46,6 +46,37 @@ classes used on the `html` tag:
 - vercel templates: https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app
 - next.js react foundations course: https://nextjs.org/learn/react-foundations
 - next.js course: https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app
+- frontend roadmaps
+  - https://roadmap.sh/angular
+  - https://roadmap.sh/react
+    - https://github.com/practical-tutorials/project-based-learning#react 
+  - https://roadmap.sh/javascript
+  - https://roadmap.sh/typescript
+  - https://roadmap.sh/nextjs
+  - https://roadmap.sh/frontend
+  - interviewing: https://roadmap.sh/questions/frontend 
+  - https://roadmap.sh/frontend-performance-best-practices 
+- leetcode & systems design interview questions
+  - https://roadmap.sh/leetcode
+  - https://bytebytego.com/
+  - https://roadmap.sh/system-design 
+  - https://roadmap.sh/software-architect
+  - https://leetcode.com/
+  - cracking the coding interview - java
+  - https://github.com/neetcode-gh/leetcode/tree/main/java
+  - https://neetcode.io/
+  - https://www.youtube.com/@NeetCodeIO/videos
+- backend: server with java & dropwizard
+  - spring boot
+  - https://roadmap.sh/backend
+- compiler/OS engineer: clang/LLVM, MLIR
+  - https://roadmap.sh/c
+  - https://solarianprogrammer.com/2018/01/10/writing-minimal-x86-64-jit-compiler-cpp/
+  - https://github.com/tuhdo/os01
+- ML: 
+  - https://roadmap.sh/machine-learning
+  - attention is all you need - https://arxiv.org/abs/1706.03762
+
 
 ### React fundamentals course
 - You can use React to build your UI, then incrementally adopt Next.js features to solve common application requirements such as routing, data fetching, and caching
@@ -61,4 +92,5 @@ classes used on the `html` tag:
 </html>
 ```
 - JavaScript cannot interact with or change an HTML element until it selects it from the Document Object Model (DOM) and stores it in a variable.
+- it could be `const rootElement = document.getElementById('app');` instead
 

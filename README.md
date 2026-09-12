@@ -94,3 +94,14 @@ classes used on the `html` tag:
 - JavaScript cannot interact with or change an HTML element until it selects it from the Document Object Model (DOM) and stores it in a variable.
 - it could be `const rootElement = document.getElementById('app');` instead
 
+```html
+<script type="module">
+      import React from 'react';
+      import { createRoot } from 'react-dom/client';
+ 
+      const domNode = document.getElementById('app');
+      const root = createRoot(domNode);
+      root.render(<h1>Develop. Preview. Ship.</h1>);
+    </script>
+```
+- ^this is an example of `type="module"` instead of `type="text/javascript"` and module means ES module

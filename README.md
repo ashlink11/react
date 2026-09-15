@@ -105,3 +105,7 @@ classes used on the `html` tag:
     </script>
 ```
 - ^this is an example of `type="module"` instead of `type="text/javascript"` and module means ES module
+- JSX is a syntax extension ... But browsers don't understand JSX out of the box, so you'll need a JavaScript compiler, such as a Babel, to transform your JSX code into regular JavaScript.
+- But browsers don't understand JSX out of the box, so you'll need a JavaScript compiler, such as a Babel, to transform your JSX code into regular JavaScript.
+
+

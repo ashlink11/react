@@ -135,3 +135,21 @@ classes used on the `html` tag:
   </body>
 </html>
 ```
+
+```html
+<script type="text/babel" data-type="module" data-presets="react">
+  import React from 'react';
+  import { createRoot } from 'react-dom/client';
+ 
+  const domNode = document.getElementById('app');
+ 
+  function Header() {
+    return <h1>Develop. Preview. Ship.</h1>;
+  }
+ 
+  const root = createRoot(domNode);
+  root.render(<Header />);
+</script>
+```
+- ^To render this component to the DOM, pass it as the first argument in the root.render() method:
+

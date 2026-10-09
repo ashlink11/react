@@ -153,3 +153,10 @@ classes used on the `html` tag:
 ```
 - ^To render this component to the DOM, pass it as the first argument in the root.render() method:
 
+```html
+function Header({ title }) {
+  console.log(title);
+  return <h1>title</h1>;
+}
+```
+- ^destructuring to pass down props

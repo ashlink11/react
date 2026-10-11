@@ -156,7 +156,8 @@ classes used on the `html` tag:
 ```html
 function Header({ title }) {
   console.log(title);
-  return <h1>title</h1>;
+  return <h1>{title}</h1>;
 }
 ```
 - ^destructuring to pass down props
+- You can think of curly braces as a way to enter "JavaScript land" while you are in "JSX land". You can add any JavaScript expression (something that evaluates to a single value) inside curly braces. 

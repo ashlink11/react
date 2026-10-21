@@ -162,21 +162,15 @@ function Header({ title }) {
 - ^destructuring to pass down props
 - You can think of curly braces as a way to enter "JavaScript land" while you are in "JSX land". You can add any JavaScript expression (something that evaluates to a single value) inside curly braces. 
 
-'''html
-function HomePage() {
-  const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
- 
-  return (
-    <div>
-      <Header title="Develop. Preview. Ship." />
-      <ul>
-        {names.map((name) => (
-          <li>{name}</li>
-        ))}
-      </ul>
-    </div>
-  );
-}
-'''
-- array.map() example
+'''html function HomePage() { const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
 
+return (
+
+{names.map((name) => (
+{name}
+))}
+); } '''
+array.map() example
+
+`${title}`
+- ^template literal

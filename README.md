@@ -174,3 +174,11 @@ array.map() example
 
 `${title}`
 - ^template literal
+```html
+function Header({ title }) {
+  return <h1>{`Cool ${title}`}</h1>;
+}
+```
+- Notice how you've used curly braces to weave in and out of "JavaScript" and "JSX" land.
+
+- listening to events: onChange for input fields or onSubmit for forms, onClick

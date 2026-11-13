@@ -182,3 +182,6 @@ function Header({ title }) {
 - Notice how you've used curly braces to weave in and out of "JavaScript" and "JSX" land.
 
 - listening to events: onChange for input fields or onSubmit for forms, onClick
+
+- React has a set of functions called hooks. Hooks allow you to add additional logic such as state to your components. You can think of state as any information in your UI that changes over time, usually triggered by user interaction.
+- Tapping into React's internals: Function components in React are otherwise stateless JavaScript functions that run from top to bottom on every render. Calling a use... function means the component is "hooking into" React's internal state, lifecycle, or context mechanisms across renders. 

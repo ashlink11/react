@@ -185,3 +185,25 @@ function Header({ title }) {
 
 - React has a set of functions called hooks. Hooks allow you to add additional logic such as state to your components. You can think of state as any information in your UI that changes over time, usually triggered by user interaction.
 - Tapping into React's internals: Function components in React are otherwise stateless JavaScript functions that run from top to bottom on every render. Calling a use... function means the component is "hooking into" React's internal state, lifecycle, or context mechanisms across renders. 
+
+```html
+
+function HomePage() {
+  // ...
+  const [likes, setLikes] = React.useState(0);
+ 
+  function handleClick() {
+    setLikes(likes + 1);
+  }
+ 
+  return (
+    <div>
+      {/* ... */}
+      <button onClick={handleClick}>Likes ({likes})</button>
+    </div>
+  );
+}
+```
+- ^hooks example
+- Note: Unlike props which are passed to components as the first function parameter, the state is initiated and stored within a component. You can pass the state information to children components as props, but the logic for updating the state should be kept within the component where state was initially created.
+

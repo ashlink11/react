@@ -207,3 +207,5 @@ function HomePage() {
 - ^hooks example
 - Note: Unlike props which are passed to components as the first function parameter, the state is initiated and stored within a component. You can pass the state information to children components as props, but the logic for updating the state should be kept within the component where state was initially created.
 
+- When you fetch data from a database or API, you store that fetched data inside state (for example, using useState in a top-level parent component like Dashboard). 
+- That parent component then passes pieces of its state down to child components as props (e.g., <UserProfile user="{userData}"/>).

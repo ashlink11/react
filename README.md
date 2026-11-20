@@ -209,3 +209,6 @@ function HomePage() {
 
 - When you fetch data from a database or API, you store that fetched data inside state (for example, using useState in a top-level parent component like Dashboard). 
 - That parent component then passes pieces of its state down to child components as props (e.g., <UserProfile user="{userData}"/>).
+
+`npm install react@latest react-dom@latest next@latest`
+
